@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Веб студия</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="body">
+  <body>
     <!--Шапка сайта-->
     <header>
       <nav>
@@ -41,11 +45,11 @@
       <!--Преимушества-->
       <section class="section">
         <h2 class="section-title hidden">Наши преимущества</h2>
-        <ul>
+        <ul class="list">
           <!--без ФОКУСА, ТОЛЬКО ХОВЕР, ТАК КАК НЕ ИНТЕРАКТИВНЫЙ ЭЛЕМЕНТ-->
           <li>
-            <img src="./images/2section/antenna.svg" alt="Веб студия" />
-            <h3 class="section-title">Внимание к деталям</h3>
+            <img src="./images/2section/antenna.svg " alt="Веб студия" />
+            <h3 class="list-title list">Внимание к деталям</h3>
             <p class="description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -53,24 +57,24 @@
           </li>
           <li>
             <img src="./images/2section/clock.svg" alt="Веб студия" />
-            <h3 class="section-title">Пунктуальность</h3>
-            <p>
+            <h3 class="list-title">Пунктуальность</h3>
+            <p class="description">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
             <img src="./images/2section/diagram.svg" alt="Веб студия" />
-            <h3class="section-title">Планирование</h3class=>
-            <p>
+            <h3 class="list-title">Планирование</h3>
+            <p class="description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
             <img src="./images/2section/astronaut.svg" alt="Веб студия" />
-            <h3 class="section-title">Современные технологии</h3>
-            <p>
+            <h3 class="list-title">Современные технологии</h3>
+            <p class="description">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -78,9 +82,9 @@
         </ul>
       </section>
       <!--Чем мы занимаемся-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="work-list list">
           <li>
             <img
               src="./images/3section/img1.jpg"
@@ -88,7 +92,7 @@
               height="294"
               alt="наши десктопные приложения"
             />
-            <h3>Десктопные приложения</h3>
+            <h3 class="title">Десктопные приложения</h3>
           </li>
           <li>
             <img
@@ -97,7 +101,7 @@
               height="294"
               alt="наши мобильные приложения"
             />
-            <h3>Мобильные приложения</h3>
+            <h3 class="title">Мобильные приложения</h3>
           </li>
           <li>
             <img
@@ -106,14 +110,14 @@
               height="294"
               alt="наши дизайнерские решения"
             />
-            <h3>Дизайнерские решения</h3>
+            <h3 class="title">Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
       <!--Наша команда-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/4section/img1.jpg"
@@ -121,20 +125,48 @@
               height="260"
               alt="Продакт дизайнер"
             />
-            <h3>Николай Кучеренко</h3>
-            <p lang="en">Product Designer</p>
-            <ul>
-              <li>
-                <a href="#" aria-label="ссылка на Instagram"></a>
+            <h3 class="team-title">Николай Кучеренко</h3>
+            <p class="position-name" lang="en">Product Designer</p>
+            <ul class="list social-list">
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Instagram"
+                  >Instagram</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на Twitter"></a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Twitter"
+                  >Twitter</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на Facebook"> </a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Facebook"
+                  >Facebook</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на LinkedIn"></a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на LinkedIn"
+                  >LinkedIn</a
+                >
               </li>
             </ul>
           </li>
@@ -146,21 +178,49 @@
               height="260"
               alt="Фронт енд девелопер"
             />
-            <h3>Ольга Иванова</h3>
-            <p lang="en">Frontend Developer</p>
+            <h3 class="team-title">Ольга Иванова</h3>
+            <p class="position-name" lang="en">Frontend Developer</p>
 
-            <ul>
-              <li>
-                <a href="#" aria-label="ссылка на Instagram"></a>
+            <ul class="list social-list">
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Instagram"
+                  >Instagram</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на Twitter"></a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Twitter"
+                  >Twitter</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на Facebook"> </a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Facebook"
+                  >Facebook</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на LinkedIn"></a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на LinkedIn"
+                  >LinkedIn</a
+                >
               </li>
             </ul>
           </li>
@@ -172,20 +232,48 @@
               height="260"
               alt="Маркетинг"
             />
-            <h3>Андрей Шевченко</h3>
-            <p lang="en">Marketing</p>
-            <ul>
-              <li>
-                <a href="#" aria-label="ссылка на Instagram"></a>
+            <h3 class="team-title">Андрей Шевченко</h3>
+            <p class="position-name" lang="en">Marketing</p>
+            <ul class="list social-list">
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Instagram"
+                  >Instagram</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на Twitter"></a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Twitter"
+                  >Twitter</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на Facebook"> </a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Facebook"
+                  >Facebook</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на LinkedIn"></a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на LinkedIn"
+                  >LinkedIn</a
+                >
               </li>
             </ul>
           </li>
@@ -197,30 +285,58 @@
               height="260"
               alt="Дизейнер интерфейсов"
             />
-            <h3>Иван Николаев</h3>
-            <p lang="en">UI Designer</p>
-            <ul>
-              <li>
-                <a href="#" aria-label="ссылка на Instagram"></a>
+            <h3 class="team-title">Иван Николаев</h3>
+            <p class="position-name" lang="en">UI Designer</p>
+            <ul class="list social-list">
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Instagram"
+                  >Instagram</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на Twitter"></a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Twitter"
+                  >Twitter</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на Facebook"> </a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на Facebook"
+                  >Facebook</a
+                >
               </li>
-              <li>
-                <a href="#" aria-label="ссылка на LinkedIn"></a>
+              <li class="social-item">
+                <a
+                  href="#"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ссылка на LinkedIn"
+                  >LinkedIn</a
+                >
               </li>
             </ul>
           </li>
         </ul>
       </section>
       <!--Наши клиенты-->
-      <section>
-        <h2>Постоянные клиенты</h2>
-        <ul>
-          <li>
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <ul class="list">
+          <li class="clients-item">
             <a href=""
               ><img src="./images/5section/Client1.svg" alt="Лого компании1"
             /></a>
@@ -255,32 +371,66 @@
     </main>
     <!--Футер-->
     <footer>
-      <div>
-        <a href="./">Web Studio</a>
+      <div class="contacts">
+        <a href="./" class="footer-logo">
+          <span class="logo-Web">Web</span> Studio</a
+        >
         <address>
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <p class="contacts-link">г. Киев, пр-т Леси Украинки, 26</p>
 
           <ul>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380991111111">tel:+380991111111</a></li>
+            <li class="contacts-item list">
+              <a href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="contacts-item list">
+              <a href="tel:+380991111111">tel:+380991111111</a>
+            </li>
           </ul>
         </address>
       </div>
 
       <div>
         <b>Присоединяйтесь</b>
-        <ul>
-          <li>
-            <a href="#" aria-label="ссылка на Instagram">Instagram</a>
+        <ul class="list social-list">
+          <li class="social-item">
+            <a
+              href="#"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="ссылка на Instagram"
+              >Instagram</a
+            >
           </li>
-          <li>
-            <a href="#" aria-label="ссылка на Twitter">Twitter</a>
+          <li class="social-item">
+            <a
+              href="#"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="ссылка на Twitter"
+              >Twitter</a
+            >
           </li>
-          <li>
-            <a href="#" aria-label="ссылка на Facebook">Facebook</a>
+          <li class="social-item">
+            <a
+              href="#"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="ссылка на Facebook"
+              >Facebook</a
+            >
           </li>
-          <li>
-            <a href="#" aria-label="ссылка на LinkedIn">LinkedIn</a>
+          <li class="social-item">
+            <a
+              href="#"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="ссылка на LinkedIn"
+              >LinkedIn</a
+            >
           </li>
         </ul>
       </div>
