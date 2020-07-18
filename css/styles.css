@@ -1,1 +1,92 @@
-body 
+.list {
+  list-style: none;
+}
+
+.body {
+  background: tomato;
+  color: #212121;
+  font-family: Roboto sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-Web {
+  color: #2196f3;
+}
+.site-nav .nav-link {
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.contact-us;
+ {
+  .font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact-us .contact-link {
+  color: #757575;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
+
+/* Герой */
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* <!--Преимушества--> */
+.section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
