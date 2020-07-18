@@ -9,7 +9,9 @@
 .nav-link:hover,
 .nav-link:focus,
 .social-item:hover,
+.social-item:focus,
 .social-link:hover,
+.social-link:focus,
 .clients-item:hover,
 .clients-item:focus,
 .contact-link:focus,
@@ -30,7 +32,7 @@ body {
 }
 /* Шапка сайта */
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, senf-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -38,7 +40,7 @@ body {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.logo-Web {
+.logo-web {
   color: var(--accent-color);
 }
 .site-nav .nav-link {
@@ -46,18 +48,18 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-.contact-us;
- {
+/* .contact-us; */
+
+.contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.contact-link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 /* Герой */
@@ -164,15 +166,18 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
+}
+.footer-studio {
   color: var(--white-color);
 }
-
 .contacts-link {
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--white-color);
+  text-decoration: none;
+  font-style: normal;
 }
 
 .contacts-item {
@@ -181,4 +186,6 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
 }
