@@ -6,6 +6,10 @@
   --dark-color: #000000;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .btn:hover,

@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: tomato;
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   /* font-style: normal; */
@@ -36,15 +36,24 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--dark-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  color: white;
+  /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
-
-.logo-web {
+.logo > span {
   color: var(--accent-color);
 }
 
-.site-nav .nav-link {
+/* .logo > .web {
+  color: var(--accent-color);
+} */
+
+/* .logo a {
+  color: var(--dark-color);
+} */
+
+/* Navigation */
+.nav-link {
   color: var(--title-text-color);
 }
 .nav-link {
@@ -170,10 +179,13 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-}
-.footer-studio {
+  text-decoration: none;
   color: var(--white-color);
 }
+/* .logo-studio {
+  color: var(--white-color);
+} */
+
 .contacts-link {
   font-size: 14px;
   line-height: 1.71;
@@ -190,6 +202,6 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
   font-style: normal;
+  text-decoration: none;
 }
